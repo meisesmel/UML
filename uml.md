@@ -31,8 +31,7 @@ Es responsable de mantener UML desde que se convirtió en un estándar.
 ![image](https://user-images.githubusercontent.com/114908591/227481665-0a1bf6b1-12f0-48bc-9e29-865236a0e887.png)
 
 ## Llibre
-![image](https://user-images.githubusercontent.com/114908591/227481746-1a0b7894-c25b-47dd-bdb2-deff774a2c39.png)
-
+![image](https://user-images.githubusercontent.com/114908591/227499629-3c177ba7-87da-4c0f-899c-056b35c779fb.png)
 ## Vehicle
 ![image](https://user-images.githubusercontent.com/114908591/227481809-3f2cfcf0-0954-41d2-9498-7cdc3150280c.png)
 
