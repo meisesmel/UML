@@ -22,7 +22,7 @@ Fue publicada la versión 1.4.2 para la ISO en el año 2005.
 ## Què vol dir OMG?
 Object Management Group, estandariza al Object Modelling con todas sus formas.
 
-##Què té que veure OMG amb UML?
+## Què té que veure OMG amb UML?
 Es responsable de mantener UML desde que se convirtió en un estándar.
 
 # Creem diagrames de classes següents:
