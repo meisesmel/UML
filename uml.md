@@ -139,292 +139,47 @@ Es responsable de mantener UML desde que se convirtió en un estándar.
 
 # Interfícies
 
-package activitatInterficies;
-public interface Motor {
-   public abstract String encenderse ();
-   public abstract String apagarse ();
-   public abstract String estropearse ();
-}
+## Exercici 1
 
-package activitatInterficies;
+![image](https://user-images.githubusercontent.com/114908591/227487748-f27ab488-3271-4b5f-855b-d4ba264c6eaa.png)
 
+![image](https://user-images.githubusercontent.com/114908591/227487874-d360b701-fc8e-4a74-b9f6-cf0b891929d3.png)
 
-public class Coche implements Motor{
-   @Override
-   public String encenderse() {
-       return null;
-   }
+## Exercici 2
 
+![image](https://user-images.githubusercontent.com/114908591/227488173-5537c94f-f8cb-486d-bf03-f52ed689c797.png)
 
-   @Override
-   public String apagarse() {
-       return null;
-   }
+![image](https://user-images.githubusercontent.com/114908591/227488313-f9d76e55-3afe-4703-b3df-087f7d2a864b.png)
 
+## Exercici 3
+![image](https://user-images.githubusercontent.com/114908591/227489498-48ada236-da0a-478f-a3a9-e8ad32992066.png)
 
-   @Override
-   public String estropearse() {
+![image](https://user-images.githubusercontent.com/114908591/227489602-98a27b55-5f1c-4143-a300-65cf7d4d4116.png)
 
+# Diagrames de classe per generar codi
+## Formes
+![image](https://user-images.githubusercontent.com/114908591/227498173-31210778-16e8-4e85-83be-71a2da7b2004.png)
 
-       return null;
-   }
-}
+![image](https://user-images.githubusercontent.com/114908591/227498226-efbba8e6-6e7e-41b1-a523-0f64e9e070fa.png)
 
+![image](https://user-images.githubusercontent.com/114908591/227498293-647521e1-ac8c-4fae-8c49-99e2ef933866.png)
 
+![image](https://user-images.githubusercontent.com/114908591/227498341-d4fdf510-6b65-4faa-87eb-7834a32df0c4.png)
 
-2.
+## Estudiant
+![image](https://user-images.githubusercontent.com/114908591/227498464-ee3e5510-deb5-4d72-af67-8e3bde478379.png)
 
-package activitatInterficies;
+# Diagrama de la clase contacte i Llista de Contactes
+![image](https://user-images.githubusercontent.com/114908591/227498653-b9ca7ddf-e602-4275-8ece-fb8de1f5ad88.png)
 
+# Programa final
+![image](https://user-images.githubusercontent.com/114908591/227498819-21453358-8485-4fe5-9822-be40d1229d44.png)
 
-public interface Ram {
-   public abstract double velocidad(double hz, double segundos);
+![image](https://user-images.githubusercontent.com/114908591/227498993-aca1cb3c-dea1-4029-a08d-5453ff2a4a5d.png)
 
+![image](https://user-images.githubusercontent.com/114908591/227499077-e867ee2f-1686-43a2-bb0b-c6bc91acfbde.png)
 
-}
+![image](https://user-images.githubusercontent.com/114908591/227499134-dd4911b9-182f-41df-8c70-bf0cc83b4ffe.png)
 
-
-package activitatInterficies;
-
-
-public class Pc implements Ram{
-   @Override
-   public double velocidad(double hz, double segundos) {
-       return hz*segundos;
-   }
-}
-
-
-
-
-
-
-package activitatInterficies;
-
-
-public interface publicacion
-{
-   public abstract int likes(int numLikes);
-   public abstract int comentario(int numComent);
-   public abstract int seguidores (int numSeguidores);
-}
-
-package activitatInterficies;
-
-
-public class Instagram implements publicacion{
-   @Override
-   public int likes(int numLikes) {
-       return numLikes;
-   }
-
-
-   @Override
-   public int comentario(int numComent) {
-       return numComent;
-   }
-
-
-   @Override
-   public int seguidores(int numSeguidores) {
-       return numSeguidores;
-   }
-}
-
-
-Utilitzar diagrames de classe per generar codi.
-Formes:
-
-
-
-
-
-Estudiant:
-
-
-
-
-Escogí modificar contacto en vez de eliminar contacto:
-
-5.
-
-6.
-
-Escogí modificar contacto:
-package codisSaber.LlistaDeCOntactes;
-
-
-public class Main {
-   public static void main(String[] args) {
-
-
-       llistaContactes l = new llistaContactes();
-       contacte c = new contacte("Xavi","Sancho",555443322,"Carrer de París, 4-1",  84381,"Barcelona");
-       l.afegirContacte(c);
-       l.imprimirContacte("Xavi");
-
-
-       contacte c2 = new contacte("María", "Esmel", 4982792, "Florain Rey", 897342, "Tortosa");
-       c2.demanarDadesContacte("María");
-       l.afegirContacte(c2);
-       l.imprimirContacte(c2.getNom());
-
-
-       c2.modificarDadesContacte("Ana", "Montserrat", 4982792, "Florian Rey", 897342, "Tortosa");
-       l.imprimirContacte("Ana");
-   }
-}
-
-package codisSaber.LlistaDeCOntactes;
-
-
-class contacte {
-   public String nom;
-   public String cognoms;
-   public int telefon;
-   public String adreca;
-   public int CP;
-   public String ciutat;
-
-
-   public contacte(String nom, String cognom, int telefon, String adreca, int CP, String ciutat) {
-       this.nom = nom;
-       this.cognoms = cognom;
-       this.telefon = telefon;
-       this.adreca = adreca;
-       this.CP = CP;
-       this.ciutat = ciutat;
-   }
-   public void demanarDadesContacte(String nom){
-       System.out.println("Introdueix les dades del contacte");
-       System.out.println("Nom: ");
-       this.nom = System.console().readLine();
-       System.out.println("Cognoms: ");
-       this.cognoms=System.console().readLine();
-       System.out.println("Telefon: ");
-       this.telefon= Integer.parseInt(System.console().readLine());
-       System.out.println("Adreça: ");
-       this.adreca=System.console().readLine();
-       System.out.println("CP: ");
-       this.CP=Integer.parseInt(System.console().readLine());
-       System.out.println("Ciutat: ");
-       this.ciutat=System.console().readLine();
-
-
-   }
-   public void modificarDadesContacte(String nom, String cognoms, int telefon,String adreca, int CP, String ciutat){
-       this.nom = nom;
-       this.cognoms = cognoms;
-       this.telefon = telefon;
-       this.adreca = adreca;
-       this.CP = CP;
-       this.ciutat = ciutat;
-
-
-       }
-
-
-   public String getNom() {
-       return nom;
-   }
-
-
-   public void setNom(String nom) {
-       this.nom = nom;
-   }
-
-
-   public String getCognoms() {
-       return cognoms;
-   }
-
-
-   public void setCognoms(String cognoms) {
-       this.cognoms = cognoms;
-   }
-
-
-   public int getTelefon() {
-       return telefon;
-   }
-
-
-   public void setTelefon(int telefon) {
-       this.telefon = telefon;
-   }
-
-
-   public String getAdreca() {
-       return adreca;
-   }
-
-
-   public void setAdreca(String adreca) {
-       this.adreca = adreca;
-   }
-
-
-   public int getCP() {
-       return CP;
-   }
-
-
-   public void setCP(int CP) {
-       this.CP = CP;
-   }
-
-
-   public String getCiutat() {
-       return ciutat;
-   }
-
-
-   public void setCiutat(String ciutat) {
-       this.ciutat = ciutat;
-   }
-}
-
-
-8.
-
-package codisSaber.exercici8;
-
-
-import java.util.ArrayList;
-import java.util.Date;
-
-
-public class autor {
-   public String nom;}
-
-
-class llibre {
-   public String ISBN;
-   public ArrayList<autor> Autors;
-   public String nom;
-   public int quantitat;}
-
-
-class prestec {
-   public llibre llibrePestec;
-   public Date dataPrestec;}
-
-
-interface persona {
-   public String ciutat = "Tortosa";
-   String cognoms = "Esmel";
-   int telefon = 384789645;
-   int CP = 43580;
-   String dni = "María";
-   String adreca = "Comuneros de Castilla";
-   String nom = "María";}
-
-
-class usuariBiblioteca implements persona {
-   public ArrayList<prestec> prestecs;
-   public int numSoci;
-   public void tornarLlibre() {}
-   public void comprovarVencimentPrestecs() {}
-   public void agafarLlibre() {    }
-}
-
+# Codi diagrama: autor, llibre, prestec, usuariBiblioteca i persona
+![image](https://user-images.githubusercontent.com/114908591/227499320-bfa1f778-ddc7-42d5-b970-729d258c05dd.png)
