@@ -86,76 +86,65 @@ Es responsable de mantener UML desde que se convirtió en un estándar.
 
 ![image](https://user-images.githubusercontent.com/114908591/227483483-f774cf2b-1229-48a5-b6dd-e52dde26a02a.png)
 
-## Persona
+## Persona-Dirección
+![image](https://user-images.githubusercontent.com/114908591/227483658-6240bc03-d3f5-4912-a06b-506883fc4aa9.png)
 
+## Taxi-Client
+![image](https://user-images.githubusercontent.com/114908591/227483723-21fb62eb-8f0c-4aa8-a445-c080fc563b56.png)
 
+# Agregacions
 
+## Ovelles-Corral
+![image](https://user-images.githubusercontent.com/114908591/227484091-2d914acf-c681-4cc0-a454-c99aa1723ea2.png)
 
+## Animals-Zoo
+![image](https://user-images.githubusercontent.com/114908591/227484131-678f80cf-72cf-4b61-875d-a6a3b335cac5.png)
 
-3.
+## Curs-Estudiants
+![image](https://user-images.githubusercontent.com/114908591/227484186-8d0240ff-2d34-472f-bfae-0f50848901ea.png)
 
-4.
+## Biblioteca-LLibres
+![image](https://user-images.githubusercontent.com/114908591/227484401-cd3b3d1c-526b-4510-9380-eb67f76890b4.png)
 
+## Atletes-Equip
+![image](https://user-images.githubusercontent.com/114908591/227484437-1c342721-5575-43a5-961f-eee8ab0e3d35.png)
 
-5.
+# Relacions de composició
 
-6. 
+## Molècula d'aigua
+![image](https://user-images.githubusercontent.com/114908591/227485904-5f78a730-327d-4852-b607-2112c8a65ef6.png)
 
+## Molècula de sal
+![image](https://user-images.githubusercontent.com/114908591/227485953-764be707-6775-4287-9e85-de9210a5bbf3.png)
 
-7.
+## Molècula d'àcid sulfúric
+![image](https://user-images.githubusercontent.com/114908591/227486016-1f7a34ce-ca83-4bb7-82ca-8696deafc208.png)
 
+## Molècula d'aigua oxigenada
+![image](https://user-images.githubusercontent.com/114908591/227486087-bf2c59fa-6017-43cd-8b02-e497821ebc20.png)
 
-8.
+## Molècula d'amoníac
+![image](https://user-images.githubusercontent.com/114908591/227486159-c4a4a396-c878-4402-af99-024d905d8701.png)
 
+# Relacios d'associació
 
+## Cuiner-Menjà
+![image](https://user-images.githubusercontent.com/114908591/227486465-33a7494f-5f50-4af1-8aff-5e5d77bb54c2.png)
 
+## Cirurgià-Pacient
+![image](https://user-images.githubusercontent.com/114908591/227486764-f45f4203-eb66-416c-becc-74bc3cc48fa1.png)
 
-1.
+## Professor-Alumne
+![image](https://user-images.githubusercontent.com/114908591/227487079-551e4a8c-33f2-49c8-b74d-701cbd9012ac.png)
 
-2.
-
-3.
-
-4.
-
-5.
-
-
-
-
-1.
-
-2.
-
-3.
-
-4.
-
-5.
-
-
-1.
-
-2.
-
-3.
-
-
-
-
-
-
-1.
+# Interfícies
 
 package activitatInterficies;
-
-
 public interface Motor {
    public abstract String encenderse ();
    public abstract String apagarse ();
    public abstract String estropearse ();
 }
-
 
 package activitatInterficies;
 
