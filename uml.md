@@ -185,3 +185,5 @@ Es responsable de mantener UML desde que se convirtió en un estándar.
 
 # UML
 ![image](https://user-images.githubusercontent.com/114908591/228480705-5bf23ae8-d7d5-4da5-b7b1-8d59818752ae.png)
+
+![image](https://user-images.githubusercontent.com/114908591/228492612-21d13885-7b95-44d3-9219-8f05c9aa7fda.png)
