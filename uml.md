@@ -182,3 +182,6 @@ Es responsable de mantener UML desde que se convirtió en un estándar.
 
 # Codi diagrama: autor, llibre, prestec, usuariBiblioteca i persona
 ![image](https://user-images.githubusercontent.com/114908591/227499320-bfa1f778-ddc7-42d5-b970-729d258c05dd.png)
+
+# UML
+![image](https://user-images.githubusercontent.com/114908591/228480705-5bf23ae8-d7d5-4da5-b7b1-8d59818752ae.png)
